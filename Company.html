@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Company details</title>
+        <link rel="stylesheet" type="text/css" href="Company.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function buttonclick() {
+                window.location.href = "Email.html";
+            }
+            
+            </script>
+            
+            
+
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-nowrap">
+            <div class="container-fluid">
+              <ul class="nav nav navbar-nav navbar-center">
+                <li class="active"><a href="index.html">Personal Details</a></li>
+                <li><a href="Company.html">Company Details</a></li>
+                <li><a href="Email.html">Email Verfication</a></li>
+              </ul>
+            </div>
+          </nav>
+            <h1>Add your Company details</h1>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+            <div class="container-fluid">
+                <div class = "row border border-danger">
+                <div class="col-xl-4" style="background-color:transparent;"></div>
+                <div class="col-xl-4 justify-content-center" style="background-color:transparent;">
+                    <img class="s1" src="download.jpg" alt="Upload your company logo" >
+                    <h4 >Upload your company logo</h4>
+                </div>
+                <div class="col-xl-4" style="background-color:transparent"></div>
+                </div>
+            </div>
+            <form>
+        <p class="t1">Company Name</p>
+        <input type="text" placeholder="Company Name">
+        <p class="t1">Email id</p>
+        <input type="text" placeholder="Email id">
+        <p class="t1">Job title</p>
+        <input type="text" placeholder="Job title">
+        <p class="t1">Years of Experience</p>
+        <input type="text" placeholder="Years of Experience">
+
+       <div>
+            <input type="radio" id="male" name="gender"><label for="terms and condition">I accept Terms and Conditions</label>
+            
+        </div>
+        
+        <div>
+        <input type="button" value="Send OTP" onclick="buttonclick()" />
+        
+        
+    </div>
+    </form>
+    </body>
+</html>

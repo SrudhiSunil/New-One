@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration form</title>
+        <link rel="stylesheet" type="text/css" href="Company.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function buttonclick() {
+                window.location.href = "Email.html";
+            }
+            
+            </script>
+            
+            
+
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary flex-nowrap">
+            <div class="container-fluid">
+              <ul class="nav nav navbar-nav navbar-center">
+                <li class="active"><a href="index.html">Personal Details</a></li>
+                <li><a href="Company.html">Company Details</a></li>
+                <li><a href="Email.html">Email Verfication</a></li>
+              </ul>
+            </div>
+          </nav>
+   
+        <h1>Add your personal details</h1>
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry</p>
+        <form>
+            <p class="t1">Full Name</p>
+            <input type="text" placeholder="Full name">
+            <p class="t1">Country</p>
+            <input type="text" placeholder="Country">
+            <p class="t1">State</p>
+            <input type="text" placeholder="State">
+            <p class="t1">Phone</p>
+            <input type="text" placeholder="Number">
+
+           <div>
+                <input type="radio" id="male" name="gender"><label for="male">Male</label>
+                <input type="radio" id="female" name="gender"><label for="female">Female</label>
+            </div>
+            
+            <div>
+            <input type="button" value="Next" onclick="buttonclick()" />
+            
+        </div>
+            
+
+       
+        </form>
+    </body>
+</html>

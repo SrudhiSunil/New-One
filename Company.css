@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(58, 56, 56);
+    font: 1em/1.5 sans-serif;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(112, 108, 108);
+  }
+
+  h1{
+      text-align: center;
+      font-size: 50px;
+      color: blanchedalmond;
+  }
+ 
+  p{
+    text-align: center;
+    font-size: 20px;
+    color: blanchedalmond;
+  }
+  .t1{
+      text-align: left;
+  }
+  .s1{
+    width: 100px;
+    position: relative;
+
+  }
+
+  form{
+      margin: 20px auto;
+      width: 320px;
+      color: blanchedalmond;
+  }
+
+  input{
+      padding: 10px;
+      font-size: inherit;
+  }
+
+  input[type="text"] {
+      display: block;
+      margin-bottom: 25px;
+      width: 100%;
+      border: 2px solid blanchedalmond;
+      background: rgb(202, 199, 199);
+}
+
+input[type="password"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid blanchedalmond;
+    background: rgb(202, 199, 199);
+}
+
+input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid blanchedalmond;
+    background: rgb(202, 199, 199);
+}
+
+input[type="radio"] {
+    margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child {
+    margin-left: 0;
+}
+
+input[type="button"] {
+    width: 344px;
+    height: 45px;
+    border: black;
+    background: blanchedalmond;
+    color: black;
+}
+
+input[type="button"]:focus {
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: blanchedalmond;
+    color: black;
+}
+
+input:focus {
+    background: white;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
