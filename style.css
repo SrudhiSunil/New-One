@@ -37,7 +37,7 @@ body{
   p{
     text-align: center;
     font-size: 20px;
-    color: blanchedalmond;
+    color: rgb(15, 15, 15);
   }
   .t1{
       text-align: left;
@@ -46,7 +46,7 @@ body{
   form{
       margin: 20px auto;
       width: 320px;
-      color: blanchedalmond;
+      color: rgb(17, 17, 17);
   }
 
   input{
